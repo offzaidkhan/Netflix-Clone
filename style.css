@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    height: 95vh;
+    background: url(asset/asset1.jpg);
+    background-position: center;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+.main .box {
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+.main nav {
+    max-width: 80vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 24px 34px;
+    z-index: 10;
+}
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+.button {
+    display: flex;
+}
+.singin {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border: none;
+    height: 32px;
+    width: 80px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    z-index: 10;
+    margin-left: 10px;
+}
+#lang {
+    z-index: 10;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.078);
+    padding: 0 20px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+option {
+    color: black;
+    margin: 0 2px;
+}
+.hero {
+    height: calc(95vh - 85px);
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    position: relative;
+    padding: 10px;
+    position: absolute;
+}
+.hero h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.hero h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.email {
+    height: 56px;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.70);
+    color: grey;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.279);
+}
+.getstarted {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    border: none;
+    height: 56px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    z-index: 10;
+    margin-left: 10px;
+}
+.break {
+    height: 10px;
+    background-color: rgba(9, 9, 9, 0.717);
+}
+.first img {
+    width: 550px;
+    position: relative;
+    z-index: 10;
+}
+.third img {
+    position: relative;
+    z-index: 10;
+}
+#video1 {
+    position: absolute;
+    top: 142px;
+    right: 290px;
+    width: 400px;
+}
+#video2 {
+    position: absolute;
+    right: 280px;
+    width: 400px;
+    top: 92px;
+}
+.sub-section {
+    height: 160px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+.sub-section h1 {
+    font-weight: 900;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-section p {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first, .third {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.first, .second , .third , .fourth{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 0;
+    margin: 0 auto;
+    color: #fff;
+}
+.second img {
+    width: 580px;
+}
+.third {
+    height: 550px;
+    background-color: black;
+    color: #fff;
+}
+.fourth {
+    height: 550px;
+    background-color: black;
+}
+.fifth {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.ques-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    max-width: 75vw;
+    margin: 20px auto;
+    padding: 24px;
+}
+.fifth h1 {
+    font-weight: 900;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fifth p {
+    margin: 60px 0 15px 0px;
+}
+.ques {
+    font-size: 1.5vw;
+}
+.ques-sec svg {
+    font-size: 2rem;
+}
+footer {
+    height: 55vh;
+    background-color: black;
+}
